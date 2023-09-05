@@ -66,7 +66,7 @@ exports.view = async (req, res) => {
           _id: opt._id,
           text: opt.text,
           votes: opt.votes,
-          link_to_vote: "/optiosn/" + "add_vote/" + opt._id,
+          link_to_vote: "/options/" + "add_vote/" + opt._id,
         };
       }),
     },
